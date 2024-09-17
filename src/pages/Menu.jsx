@@ -87,7 +87,7 @@ export default function Menu() {
     <div className='menu-page'>
       <header className='mt-5'>
         <div className='container h-100 d-flex align-items-center justify-content-center'>
-        <h1 className='text-light'>Menu</h1>
+        <h1 className='text-light text-uppercase'>Menu</h1>
         </div>
       </header>
 
@@ -102,7 +102,7 @@ export default function Menu() {
             <div className='col-lg-6 d-flex flex-column justify-content-around'>
               { breakfast.map((breakfast) => (
                 <div key={breakfast.id}>
-                  <Card className='border-0'>
+                  <Card className='border-1 shadow'>
                     <CardBody>
                       <CardTitle className='text-center fs-3'> {breakfast.name} </CardTitle>
                       <CardText className='text-center fs-5'> {breakfast.description} </CardText>
@@ -125,7 +125,7 @@ export default function Menu() {
             <div className='col-lg-6 d-flex flex-column justify-content-around'>
               { lunch.map((lunch) => (
                 <div key={lunch.id}>
-                  <Card className='border-0 bg-dark text-light'>
+                  <Card className='border-1 shadow bg-dark text-light'>
                     <CardBody>
                       <CardTitle className='text-center fs-3'> {lunch.name} </CardTitle>
                       <CardText className='text-center fs-5'> {lunch.description} </CardText>
@@ -153,7 +153,7 @@ export default function Menu() {
             <div className='col-lg-6 d-flex flex-column justify-content-around'>
               { dinner.map((dinner) => (
                 <div key={dinner.id}>
-                  <Card className='border-0'>
+                  <Card className='border-1 shadow'>
                     <CardBody>
                       <CardTitle className='text-center fs-3'> {dinner.name} </CardTitle>
                       <CardText className='text-center fs-5'> {dinner.description} </CardText>
@@ -176,7 +176,7 @@ export default function Menu() {
             <div className='col-lg-6 d-flex flex-column justify-content-around'>
               { dessert.map((dessert) => (
                 <div key={dessert.id}>
-                  <Card className='border-0 bg-dark text-light'>
+                  <Card className='border-1 shadow bg-dark text-light'>
                     <CardBody>
                       <CardTitle className='text-center fs-3'> {dessert.name} </CardTitle>
                       <CardText className='text-center fs-5'> {dessert.description} </CardText>
