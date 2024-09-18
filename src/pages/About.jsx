@@ -4,6 +4,7 @@ import chefImg1 from '../utils/utils/img/chef1.jpg'
 import chefImg2 from '../utils/utils/img/chef2.jpg'
 import chefImg3 from '../utils/utils/img/chef3.jpg'
 import ImageGallery from '../components/ImageGallery'
+import { Reviews } from '../components/Reviews'
  
 export default function About() {
   return (
@@ -32,6 +33,9 @@ export default function About() {
       </div>
       <div className='bg-dark text-light'>
         <ImageGallery />
+      </div>
+      <div className='my-5'>
+        <Reviews />
       </div>
     </div>
   )
