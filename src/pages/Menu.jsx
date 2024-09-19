@@ -11,17 +11,17 @@ const breakfast = [
     id: 1,
     name: 'Breakfast Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 2,
     name: 'Breakfast Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 3,
     name: 'Breakfast Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },
 ];
 
@@ -30,17 +30,17 @@ const lunch = [
     id: 1,
     name: 'Lunch Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 2,
     name: 'Lunch Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 3,
     name: 'Lunch Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },
 ];
 
@@ -49,17 +49,17 @@ const dinner = [
     id: 1,
     name: 'Dinner Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 2,
     name: 'Dinner Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 3,
     name: 'Dinner Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$zprice'
   },
 ];
 
@@ -68,17 +68,17 @@ const dessert = [
     id: 1,
     name: 'Dessert Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 2,
     name: 'Dessert Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },{
     id: 3,
     name: 'Dessert Item',
     description: 'Description of the item',
-    price: '${price}'
+    price: '$price'
   },
 ];
 

@@ -20,7 +20,7 @@ export function Reviews() {
               </div>
             </CardBody>
             <CardFooter className="d-flex align-items-center">
-              <img src={ Person1 } className="img-fluid rounded-circle mx-3 shadow" />
+              <img src={ Person1 } className="img-fluid rounded-circle mx-3 shadow" alt="" />
               <CardTitle className="text-success"> Customer Name </CardTitle>
             </CardFooter>
           </Card>
@@ -36,7 +36,7 @@ export function Reviews() {
               </div>
             </CardBody>
             <CardFooter className="d-flex align-items-center">
-              <img src={ Person2 } className="img-fluid rounded-circle mx-3 shadow" />
+              <img src={ Person2 } className="img-fluid rounded-circle mx-3 shadow" alt="" />
               <CardTitle className="text-success"> Customer Name </CardTitle>
             </CardFooter>
           </Card>
@@ -52,7 +52,7 @@ export function Reviews() {
               </div>
             </CardBody>
             <CardFooter className="d-flex align-items-center">
-              <img src={ Person3 } className="img-fluid rounded-circle mx-3 shadow" />
+              <img src={ Person3 } className="img-fluid rounded-circle mx-3 shadow" alt="" />
               <CardTitle className="text-success"> Customer Name </CardTitle>
             </CardFooter>
           </Card>
