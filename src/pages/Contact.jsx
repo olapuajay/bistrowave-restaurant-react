@@ -18,7 +18,7 @@ export default function Contact() {
             <ContactInfo />
           </div>
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
-            <Form action='/'>
+            <Form>
               <Form.Group className='row mb-3'>
                 <div className="col-md-6">
                   <Form.Label htmlFor='name'>Name</Form.Label>
@@ -49,7 +49,7 @@ export default function Contact() {
                   <Form.Label htmlFor='comments'>Comments</Form.Label>
                   <Form.Control type='textarea' id='comments' />
               </Form.Group>
-              <button type='submit' className='btn btn-outline-success btn-lg'>Submit</button>
+              <button className='btn btn-outline-success btn-lg'>Submit</button>
             </Form>
           </div>
         </div>
