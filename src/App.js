@@ -15,7 +15,7 @@ function App() {
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand text-light fw-semibold badge bg-success'>
-              <h6>RESTAURANT</h6>
+                <h6>RESTAURANT</h6>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
