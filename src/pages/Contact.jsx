@@ -18,7 +18,7 @@ export default function Contact() {
             <ContactInfo />
           </div>
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
-            <Form>
+            <Form action="#">
               <Form.Group className='row mb-3'>
                 <div className="col-md-6">
                   <Form.Label htmlFor='name'>Name</Form.Label>
