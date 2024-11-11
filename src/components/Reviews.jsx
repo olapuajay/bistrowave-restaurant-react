@@ -15,13 +15,13 @@ export function Reviews() {
             <CardBody>
               <div className="p-4">
                 <CardText>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dolorem repellendus, eum culpa quae fugit dolore repudiandae quos dolor nihil quidem atque!
+                  "Absolutely loved my dining experience here! The atmosphere was cozy, and the staff made me feel right at home. The pasta was perfectly cooked, and the flavors were incredible. Will definitely be coming back!"
                 </CardText>
               </div>
             </CardBody>
             <CardFooter className="d-flex align-items-center">
               <img src={ Person1 } className="img-fluid rounded-circle mx-3 shadow" alt="" />
-              <CardTitle className="text-success"> Customer Name </CardTitle>
+              <CardTitle className="text-success"> Lauren bell </CardTitle>
             </CardFooter>
           </Card>
         </div>
@@ -31,13 +31,13 @@ export function Reviews() {
             <CardBody>
               <div className="p-4">
                 <CardText>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dolorem repellendus, eum culpa quae fugit dolore repudiandae quos dolor nihil quidem atque!
+                  "This is hands down the best restaurant in town! Fresh ingredients, a warm ambiance, and attentive service made for a memorable evening. The chef's special was out of this world—definitely a must-try!"
                 </CardText>
               </div>
             </CardBody>
             <CardFooter className="d-flex align-items-center">
               <img src={ Person2 } className="img-fluid rounded-circle mx-3 shadow" alt="" />
-              <CardTitle className="text-success"> Customer Name </CardTitle>
+              <CardTitle className="text-success"> John Wick </CardTitle>
             </CardFooter>
           </Card>
         </div>
@@ -47,13 +47,13 @@ export function Reviews() {
             <CardBody>
               <div className="p-4">
                 <CardText>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dolorem repellendus, eum culpa quae fugit dolore repudiandae quos dolor nihil quidem atque!
+                  "A lovely spot with a welcoming vibe. The food was delicious, especially the desserts! I took my family here for a birthday dinner, and everyone enjoyed it. A fantastic place for any occasion!"
                 </CardText>
               </div>
             </CardBody>
             <CardFooter className="d-flex align-items-center">
               <img src={ Person3 } className="img-fluid rounded-circle mx-3 shadow" alt="" />
-              <CardTitle className="text-success"> Customer Name </CardTitle>
+              <CardTitle className="text-success"> Ellyse perry </CardTitle>
             </CardFooter>
           </Card>
         </div>
