@@ -15,7 +15,7 @@ export default function Home() {
             <div className='row'>
               <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
                 <h2 className='mb-0 text-black fw-normal'>Welcome To</h2>
-                <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>React Restaurant</h1>
+                <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>Bistrowave</h1>
                 <MenuBtn />
               </div>
             </div>
@@ -29,8 +29,10 @@ export default function Home() {
           </div>
           <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center'>
             <h2 className='fs-1 mb-5 text-uppercase fw-bold'>About Us</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et at eius aspernatur! Sed itaque ratione eius eveniet odit esse tempora, eaque iste illo, beatae voluptate quis perspiciatis aliquam id voluptatem.</p>
-            <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nesciunt enim dolorum pariatur reiciendis cum quidem numquam temporibus suscipit blanditiis dicta, alias ipsum quasi consectetur! Et quibusdam perferendis nobis error!</p>
+            <p className='mb-5 about-text'>
+              Welcome to Bistrowave, where culinary creativity meets warm hospitality. Nestled in the heart of godavarikani, we’re a cozy, inviting spot that combines the finest ingredients with expert techniques to bring you an exceptional dining experience.
+              Our chefs are passionate about crafting dishes that capture the essence of traditional flavors, reimagined with a modern twist. Each plate is prepared with fresh, locally sourced ingredients, and our menu offers a variety of choices that cater to every palate—from timeless classics to innovative seasonal specials.
+            </p>
             <Link to='/about'>
               <button type='button' className='btn btn-outline-danger btn-lg'>More About Us</button>
             </Link>

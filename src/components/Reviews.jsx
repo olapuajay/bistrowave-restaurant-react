@@ -15,7 +15,7 @@ export function Reviews() {
             <CardBody>
               <div className="p-4">
                 <CardText>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dolorem repellendus, eum culpa quae fugit dolore repudiandae quos dolor nihil quidem atque!
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dolorem repellendus, eum culpa quae fugit dolore repudiandae quos dolor nihil quidem atque!
                 </CardText>
               </div>
             </CardBody>

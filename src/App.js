@@ -38,7 +38,7 @@ function App() {
       </Routes>
 
       <footer className='bg-body-tertiary'>
-        <p className='p-3 m-0 text-center'>copyright @ made by AJAY</p>
+        <p className='p-3 m-0 text-center'>&copy; Bistrowave 2024. All rights reserved. Developed by <a href="https://github.com/olapuajay">AJAY</a> </p>
       </footer>
     </div>
   );
