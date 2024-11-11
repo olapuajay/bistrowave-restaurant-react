@@ -48,16 +48,16 @@ export default function Home() {
               <h3 className='fs-2 mb-5'>Food</h3>
               <ul className='px-0'>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Item</p>
-                  <p className='fs-3 mx-2 text-success fw-bold'>${'price'}</p>
+                  <p className='fs-3 mx-2'> Chicken Biryani </p>
+                  <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{300}</p>
                 </li>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Item</p>
-                  <p className='fs-3 mx-2 text-success fw-bold'>${'price'}</p>
+                  <p className='fs-3 mx-2'> Mutton Mandi </p>
+                  <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{500}</p>
                 </li>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Item</p>
-                  <p className='fs-3 mx-2 text-success fw-bold'>${'price'}</p>
+                  <p className='fs-3 mx-2'> Classic Tiramisu </p>
+                  <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{350}</p>
                 </li>
               </ul>
             </div>
@@ -66,16 +66,16 @@ export default function Home() {
               <h3 className='fs-2 mb-5'>Drinks</h3>
               <ul className='px-0'>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Item</p>
-                  <p className='fs-3 mx-2 text-success fw-bold'>${'price'}</p>
+                  <p className='fs-3 mx-2'>Clover Club</p>
+                  <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{120}</p>
                 </li>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Item</p>
-                  <p className='fs-3 mx-2 text-success fw-bold'>${'price'}</p>
+                  <p className='fs-3 mx-2'>Expresso Martini</p>
+                  <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{90}</p>
                 </li>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Item</p>
-                  <p className='fs-3 mx-2 text-success fw-bold'>${'price'}</p>
+                  <p className='fs-3 mx-2'>Mojito</p>
+                  <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{60}</p>
                 </li>
               </ul>
             </div>

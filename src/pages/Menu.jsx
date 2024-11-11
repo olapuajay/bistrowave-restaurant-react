@@ -9,56 +9,56 @@ import dessertImg from '../utils/utils/img/dessert.jpg'
 const breakfast = [
   {
     id: 1,
-    name: 'Breakfast Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Idli-Sambar',
+    description: 'Soft rice cakes with lentil stew',
+    price: `\u20B9 60`
   },{
     id: 2,
-    name: 'Breakfast Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Aloo parantha',
+    description: 'Stuffed flatbread with spiced potatoes',
+    price: `\u20B9 80`
   },{
     id: 3,
-    name: 'Breakfast Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Dosa',
+    description: 'Crispy crepe with savory fillings',
+    price: `\u20B9 50`
   },
 ];
 
 const lunch = [
   {
     id: 1,
-    name: 'Lunch Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Chicken Biryani',
+    description: 'Fragrant rice dish with tender chicken',
+    price: `\u20B9 300`
   },{
     id: 2,
-    name: 'Lunch Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'South Indian Thali',
+    description: 'Assorted platter with rice, curry, and sides',
+    price: `\u20B9 200`
   },{
     id: 3,
-    name: 'Lunch Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Mutton Mandi',
+    description: 'Slow-cooked rice dish with spiced mutton',
+    price: `\u20B9 500`
   },
 ];
 
 const dinner = [
   {
     id: 1,
-    name: 'Dinner Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Panner Butter Masala',
+    description: 'Creamy tomato curry with cottage cheese',
+    price: `\u20B9 250`
   },{
     id: 2,
-    name: 'Dinner Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Chicken Tikka Masala',
+    description: 'Spicy tomato curry with grilled chicken',
+    price: `\u20B9 350`
   },{
     id: 3,
-    name: 'Dinner Item',
-    description: 'Description of the item',
+    name: 'Veg Biryani',
+    description: '',
     price: '$zprice'
   },
 ];
