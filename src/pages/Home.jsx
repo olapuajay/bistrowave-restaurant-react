@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './Home.css'
 import MenuBtn from '../components/MenuBtn'
 import { Link } from 'react-router-dom'
@@ -8,6 +8,28 @@ import ContactInfo from '../components/ContactInfo'
 import ContactImg from '../utils/utils/img/contact.jpg'
 
 export default function Home() {
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  function calculateTimeLeft() {
+    const discountEndTime = new Date().getTime() + 3 * 60 * 60 * 1000;
+    const now = new Date().getTime();
+    const difference = discountEndTime - now;
+
+    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+    return { hours, minutes, seconds };
+  }
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <div className='home-page'>
       <header className='h-100 min-vh-100 d-flex align-items-center text-light shadow'>
@@ -15,7 +37,15 @@ export default function Home() {
             <div className='row'>
               <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
                 <h2 className='mb-0 text-black fw-normal'>Welcome To</h2>
-                <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>Bistrowave</h1>
+                <h1 className='mb-4 text-black fw-bold text-center text-sm-start'>Bistrowave</h1>
+                <div className='discount-section p-3 rounded'>
+                  <h2 className='text-dark'>40% off on your visit</h2>
+                  <h4 className='fw-bold mb-1'>
+                    <p className='mb-0 text-warning'>
+                      Hurry! offer end in: {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+                    </p>
+                  </h4>
+                </div>
                 <MenuBtn />
               </div>
             </div>

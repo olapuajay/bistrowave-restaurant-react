@@ -58,27 +58,27 @@ const dinner = [
   },{
     id: 3,
     name: 'Veg Biryani',
-    description: '',
-    price: '$zprice'
+    description: 'Fragrant rice dish with assorted vegetables',
+    price: '\u20B9 200'
   },
 ];
 
 const dessert = [
   {
     id: 1,
-    name: 'Dessert Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Gulab Jamun',
+    description: 'Deep-fried milk balls in sugar syrup',
+    price: '\u20B9 50'
   },{
     id: 2,
-    name: 'Dessert Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Cheese Cake',
+    description: 'Creamy dessert with a biscuit base',
+    price: '\u20B9 100'
   },{
     id: 3,
-    name: 'Dessert Item',
-    description: 'Description of the item',
-    price: '$price'
+    name: 'Ice Cream',
+    description: 'Chilled dessert with assorted flavors',
+    price: '\u20B9 40'
   },
 ];
 
