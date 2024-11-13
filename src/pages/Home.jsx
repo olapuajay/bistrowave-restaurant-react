@@ -60,7 +60,7 @@ export default function Home() {
           <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center'>
             <h2 className='fs-1 mb-5 text-uppercase fw-bold'>About Us</h2>
             <p className='mb-5 about-text'>
-              Welcome to Bistrowave, where culinary creativity meets warm hospitality. Nestled in the heart of godavarikani, we’re a cozy, inviting spot that combines the finest ingredients with expert techniques to bring you an exceptional dining experience.
+              Welcome to Bistrowave, where culinary creativity meets warm hospitality. Nestled in the heart of Hyderabad, we’re a cozy, inviting spot that combines the finest ingredients with expert techniques to bring you an exceptional dining experience.
               Our chefs are passionate about crafting dishes that capture the essence of traditional flavors, reimagined with a modern twist. Each plate is prepared with fresh, locally sourced ingredients, and our menu offers a variety of choices that cater to every palate—from timeless classics to innovative seasonal specials.
             </p>
             <Link to='/about'>
@@ -86,7 +86,7 @@ export default function Home() {
                   <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{500}</p>
                 </li>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'> Classic Tiramisu </p>
+                  <p className='fs-3 mx-2'> Panner Butter Masala </p>
                   <p className='fs-3 mx-2 text-success fw-bold'>&#8377;{350}</p>
                 </li>
               </ul>

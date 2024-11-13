@@ -20,7 +20,7 @@ export default function About() {
 
       <div className='container my-5'>
         <p className='about-text'>
-          Welcome to Bistrowave, where culinary creativity meets warm hospitality. Nestled in the heart of Godavarakhani, we’re a cozy, inviting spot that combines the finest ingredients with expert techniques to bring you an exceptional dining experience.
+          Welcome to Bistrowave, where culinary creativity meets warm hospitality. Nestled in the heart of Hyderabad, we’re a cozy, inviting spot that combines the finest ingredients with expert techniques to bring you an exceptional dining experience.
           Our chefs are passionate about crafting dishes that capture the essence of traditional flavors, reimagined with a modern twist. Each plate is prepared with fresh, locally sourced ingredients, and our menu offers a variety of choices that cater to every palate—from timeless classics to innovative seasonal specials.
         </p>
         <div className='row'>
