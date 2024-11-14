@@ -35,7 +35,7 @@ function ContactFrom() {
 
   return (
     <div className='container'>
-      <h2 className='text-center text-success mb-3'>BOOK TABLE</h2>
+      <h2 className='text-center text-success mb-3 fw-bold'>BOOK TABLE</h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group className='row mb-3'>
           <div className="col">
