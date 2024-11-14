@@ -9,18 +9,22 @@ import ContactImg from '../utils/utils/img/contact.jpg'
 
 export default function Home() {
 
+  const discountEndTime = new Date().getTime() + 3 * 60 * 60 * 1000;
+
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   function calculateTimeLeft() {
-    const discountEndTime = new Date().getTime() + 3 * 60 * 60 * 1000;
     const now = new Date().getTime();
     const difference = discountEndTime - now;
 
-    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-    return { hours, minutes, seconds };
+    if (difference > 0) {
+      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+      return { hours, minutes, seconds };
+    } else {
+      return { hours: 0, minutes: 0, seconds: 0 };
+    }
   }
 
   useEffect(() => {
@@ -42,8 +46,7 @@ export default function Home() {
                   <h2 className='text-dark'>40% off on your visit</h2>
                   <h4 className='fw-bold mb-1'>
                     <p className='mb-0 text-warning'>
-                      Hurry! offer end in: {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-                    </p>
+                    Hurry! offer ends in: {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s                    </p>
                   </h4>
                 </div>
                 <MenuBtn />
