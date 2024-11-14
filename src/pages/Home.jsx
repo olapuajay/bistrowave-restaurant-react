@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useCallback} from 'react'
 import './Home.css'
 import MenuBtn from '../components/MenuBtn'
 import { Link } from 'react-router-dom'
@@ -10,11 +10,9 @@ import ContactImg from '../utils/utils/img/contact.jpg'
 export default function Home() {
 
   // Set the discount end time as a fixed time 3 hours from the first page load
-  const discountEndTime = new Date().getTime() + 3 * 60 * 60 * 1000;
-  
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [discountEndTime] = useState(new Date().getTime() + 3 * 60 * 60 * 1000);
 
-  function calculateTimeLeft() {
+  const calculateTimeLeft = useCallback(() => {
     const now = new Date().getTime();
     const difference = discountEndTime - now;
 
@@ -26,14 +24,17 @@ export default function Home() {
     } else {
       return { hours: 0, minutes: 0, seconds: 0 };
     }
-  }
+  }, [discountEndTime]);
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
     return () => clearInterval(timer);
-  }, []);
+  }, [calculateTimeLeft]);
+
 
   return (
     <div className='home-page'>
