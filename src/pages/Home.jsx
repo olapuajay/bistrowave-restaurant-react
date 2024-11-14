@@ -43,12 +43,11 @@ export default function Home() {
               <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
                 <h2 className='mb-0 text-black fw-normal'>Welcome To</h2>
                 <h1 className='mb-4 text-black fw-bold text-center text-sm-start'>Bistrowave</h1>
-                <div className='discount-section p-3 rounded'>
-                  <h2 className='text-dark'>40% off on your visit</h2>
-                  <h4 className=' mb-1'>
-                    <p className='mb-0 text-dark'>
-                    Hurry! offer ends in: {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s                    </p>
-                  </h4>
+                <div className='discount-section p-3 mb-3 rounded'>
+                  <h3 className='text-light'>40% off on your first visit</h3>
+                    <p className='mb-1 text-light'>
+                      Hurry! offer ends in: {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+                    </p>
                 </div>
                 <MenuBtn />
               </div>
@@ -76,10 +75,10 @@ export default function Home() {
 
       <div className='menu-section py-5 text-light shadow'>
         <div className='container d-flex flex-column align-items-center'>
-          <h2 className='fs-1 mb-5 text-uppercase fs-bold'>Our Favorites</h2>
+          <h2 className='fs-1 mb-5 text-uppercase fw-bold'>Our Favorites</h2>
           <div className='row mb-5 w-100'>
             <div className='col-lg-6 d-flex flex-column align-items-center mb-5 mb-lg-0'>
-              <h3 className='fs-2 mb-5'>Food</h3>
+              <h3 className='fs-2 mb-5 text-warning'>Food</h3>
               <ul className='px-0'>
                 <li className='d-flex justify-content-between'>
                   <p className='fs-3 mx-2'> Chicken Biryani </p>
@@ -97,7 +96,7 @@ export default function Home() {
             </div>
 
             <div className='col-lg-6 d-flex flex-column align-items-center mb-5 mb-lg-0'>
-              <h3 className='fs-2 mb-5'>Drinks</h3>
+              <h3 className='fs-2 mb-5 text-warning'>Drinks</h3>
               <ul className='px-0'>
                 <li className='d-flex justify-content-between'>
                   <p className='fs-3 mx-2'>Clover Club</p>

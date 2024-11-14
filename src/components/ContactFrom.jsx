@@ -88,7 +88,7 @@ function ContactFrom() {
           <Form.Label htmlFor='information'>Additional Information</Form.Label>
           <Form.Control name='additional-information' type='textarea' id='information' />
         </Form.Group>
-        <button className='btn btn-outline-success btn-lg w-100'>Submit</button>
+        <button className='btn btn-outline-success btn-lg w-100'>Confirm</button>
       </Form>
     </div>
   )

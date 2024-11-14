@@ -12,6 +12,14 @@ header h1 {
   text-shadow: 2px 2px 8px #ffffff;
 }
 
+.discount-section {
+  background: #6b68687a;
+  width: 70%;
+}
+.discount-section h2 {
+  font-size: 3rem;
+}
+
 .menu-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../utils/utils/img/menu.jpg);
   background-size: cover;
@@ -24,6 +32,10 @@ img {
 @media only screen and (max-width: 768px) {
   header h1{
     font-size: 4rem;
+  }
+  .discount-section {
+    background: #6b68687a;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 576px) {

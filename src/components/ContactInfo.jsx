@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactInfo() {
   return (
-    <div className='d-flex flex-column align-items-center'>
+    <div className='d-flex flex-column align-items-center text-light'>
       <h2 className='fs-1 mb-3 text-uppercase fw-bold'>Where To Find Us?</h2>
       <p className='mb-5'> Jubilee Hills, Hyderabad</p>
       <h3>Opening Hours</h3>
