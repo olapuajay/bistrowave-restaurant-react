@@ -9,8 +9,9 @@ import ContactImg from '../utils/utils/img/contact.jpg'
 
 export default function Home() {
 
+  // Set the discount end time as a fixed time 3 hours from the first page load
   const discountEndTime = new Date().getTime() + 3 * 60 * 60 * 1000;
-
+  
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   function calculateTimeLeft() {
