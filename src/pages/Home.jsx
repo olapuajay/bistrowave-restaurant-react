@@ -45,8 +45,8 @@ export default function Home() {
                 <h1 className='mb-4 text-black fw-bold text-center text-sm-start'>Bistrowave</h1>
                 <div className='discount-section p-3 rounded'>
                   <h2 className='text-dark'>40% off on your visit</h2>
-                  <h4 className='fw-bold mb-1'>
-                    <p className='mb-0 text-warning'>
+                  <h4 className=' mb-1'>
+                    <p className='mb-0 text-dark'>
                     Hurry! offer ends in: {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s                    </p>
                   </h4>
                 </div>
