@@ -1,8 +1,8 @@
 import React from 'react'
-import './loading.css'
+import './Loading.css'
 import LoadingImg from '../utils/utils/img/loading-img.png'
 
-function loading() {
+function Loading() {
   return (
     <div className='loading'>
       <img src={LoadingImg} alt="loading.." className='spinner' />
@@ -10,4 +10,4 @@ function loading() {
   )
 }
 
-export default loading
+export default Loading
