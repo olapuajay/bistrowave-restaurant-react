@@ -7,26 +7,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Menu from "./pages/Menu";
-import Loading from "./components/Loading";
-import { useState, useEffect } from "react";
 
 function App() {
 
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false)
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  })
+  
 
   return (
     <div>
-      { loading && <Loading /> }
-      { !loading && (
-        <>
           <Navbar expand="lg" className="fixed-top bg-body-tertiary shadow">
             <Container>
               <Navbar.Brand>
@@ -72,8 +59,7 @@ function App() {
               </a>{" "}
             </p>
           </footer>
-          </>
-      )}
+          
     </div>
   );
 }
